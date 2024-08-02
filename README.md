@@ -1,7 +1,16 @@
-<h1 align="center">Hi 👋, I'm libok</h1>
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=welcome&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Libok's%20GitHub%20Profile&descAlignY=51&descAlign=62)
+<p align="center">
+
 <h3 align="center">A passionate ML Student from Korea</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=libok03&label=Profile%20views&color=0e75b6&style=flat" alt="libok03" /> </p>
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=libok)](https://github.com/mazassumnida/mazassumnida)
+
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=libok)](https://solved.ac/libok)
 
 - 🌱 I’m currently learning **cs231n**
 
