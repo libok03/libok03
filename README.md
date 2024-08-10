@@ -16,7 +16,7 @@
 
 - 🤝 I’m looking for help with **Artificial Intelligence**
 
-- 📫 How to reach memarkpian **markpiano01@gmail.com**
+- 📫 How to reach me **markpiano01@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
