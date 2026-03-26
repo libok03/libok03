@@ -1,34 +1,67 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=welcome&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Libok's%20GitHub%20Profile&descAlignY=51&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=280&section=header&text=Kang%20MyeongJin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Robotics%20%7C%20Autonomous%20Driving%20%7C%20ROS2&descAlignY=55&descAlign=50)
+
 <p align="center">
-
-<h3 align="center">A passionate ML Student from Korea</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=libok03&label=Profile%20views&color=0e75b6&style=flat" alt="libok03" /> </p>
-
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=libok)](https://github.com/mazassumnida/mazassumnida)
-
-
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=libok)](https://solved.ac/libok)
-
-- 🌱 I’m currently learning **cs231n**
-
-- 🤝 I’m looking for help with **Artificial Intelligence**
-
-- 📫 How to reach me **markpiano01@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://kaggle.com/libok11117" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="libok11117" height="30" width="40" /></a>
-<a href="https://instagram.com/myung_jin1117" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="myung_jin1117" height="30" width="40" /></a>
+Autonomous Driving • Motion Planning • Control • ROS2
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=libok03&show_icons=true&locale=en&layout=compact" alt="libok03" /></p>
+## 🚗 Featured Projects
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=libok03&show_icons=true&locale=en" alt="libok03" /></p>
+| Project | Description |
+|--------|-------------|
+| **ACCA 2026** | ROS2-based autonomous driving system with local planning and vehicle control |
+| **ACCA 2025** | Autonomous driving competition project |
+| **ROS2 Sim-to-Real Control** | Robot control pipeline working in both simulation and real environments |
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=libok03&" alt="libok03" /></p>
+🔗 https://github.com/libok03/ACCA2026  
+🔗 https://github.com/libok03/ACCA_2025  
+🔗 https://github.com/libok03/ros2_SimRealRobotControl  
+
+---
+
+## 🧠 Tech Stack
+
+**Robotics**
+- ROS2
+- Gazebo
+- RViz
+- Ubuntu / Linux
+
+**Programming**
+- Python
+- C++
+
+**Autonomous Driving**
+- LiDAR
+- GPS / IMU
+- DWA
+- A*
+- Stanley Controller
+- PID Control
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=libok03&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=libok03&layout=compact&theme=tokyonight"/>
+</p>
+
+---
+
+## 🎯 Interests
+
+- Autonomous Driving
+- Motion Planning
+- Vehicle Control
+- Robotics Software
+- Simulation → Real Robot Systems
+
+---
+
+## 📫 Contact
+
+- Email: markpiano01@gmail.com
+- GitHub Pages: https://libok03.github.io
