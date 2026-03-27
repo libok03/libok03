@@ -19,53 +19,17 @@
 
 * **Constrained Optimal Control (MPC)**: Kinematic Bicycle Model 기반의 **MPC**를 설계하여 차량의 비선형 동역학을 고려한 최적 경로 추종을 구현했습니다. [cite_start]특히, Solver의 수렴성 실패에 대비한 **Heuristic Fallback(Stanley)** 기구축을 통해 시스템의 고가용성을 확보했습니다. [cite: 146, 150]
 * **Hierarchical Behavioral Planning**: 복잡한 동적 환경에서의 의사결정을 위해 **Hierarchical FSM**을 설계했습니다. [cite_start]상태 천이(State Transition) 과정에서의 불연속성을 최소화하기 위해 3차 보간법(Cubic Spline) 기반의 전역 경로 완화 기법을 적용했습니다. [cite: 140, 215]
-* [cite_start]**Stochastic Perception Filtering**: 센서 노이즈 및 오인식으로 인한 급격한 제어 입력을 방지하기 위해, 인식 데이터의 **시공간적 일관성(Temporal Consistency)**을 검증하는 필터링 알고리즘을 도입하여 제어 명령의 평활도(Smoothing)를 개선했습니다. [cite: 243]
+* [cite_start]**Stochastic Perception Filtering**: 센서 노이즈 및 오인식으로 인한 급격한 제어 입력을 방지하기 위해, 인식 데이터의 시공간적 일관성(Temporal Consistency)을 검증하는 필터링 알고리즘을 도입하여 제어 명령의 평활도(Smoothing)를 개선했습니다. [cite: 243]
 * **Reinforcement Learning for Underactuated Systems**: PPO(Proximal Policy Optimization) 알고리즘을 활용하여 **Inverted Pendulum Swing-up** 제어를 구현했습니다. 보상 함수(Reward Function) 설계를 통해 복잡한 물리 시스템의 제어 전략을 학습 기반으로 최적화하는 연구를 수행 중입니다.
-
----
 
 ## 🚗 Key Projects
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/libok03/ros2_SimRealRobotControl">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=ros2_SimRealRobotControl&theme=tokyonight" />
-      </a>
-      <br/>
-      <sub><b>Sim-to-Real Manipulation</b></sub><br/>
-      <sub>MoveIt2 · UR5e · Collision-free Planning</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/libok03/PPO_SwingUp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=PPO_SwingUp&theme=tokyonight" />
-      </a>
-      <br/>
-      <sub><b>RL: Policy Optimization</b></sub><br/>
-      <sub>PPO Algorithm · Actor-Critic · Underactuated Control</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/libok03/Atari_DQN_Agent">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=Atari_DQN_Agent&theme=tokyonight" />
-      </a>
-      <br/>
-      <sub><b>Atari DQN Agent</b></sub><br/>
-      <sub>Deep Q-Learning · Experience Replay</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/libok03/CartPole_RL">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=CartPole_RL&theme=tokyonight" />
-      </a>
-      <br/>
-      <sub><b>Physical System Control</b></sub><br/>
-      <sub>DQN/PPO Comparison · Balance Control</sub>
-    </td>
-  </tr>
-</table>
-
----
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[ACCA_2025](https://github.com/libok03/ACCA_2025)** | **Autonomous Driving Architecture** <br> FSM 기반 미션 수행 및 MPC/Stanley 제어기 구축 | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white) |
+| **[PPO_SwingUp](https://github.com/libok03/PPO_SwingUp)** | **RL: Policy Optimization** <br> PPO 알고리즘 기반 Underactuated 시스템 제어 최적화 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) |
+| **[ros2_SimReal](https://github.com/libok03/ros2_SimRealRobotControl)** | **Sim-to-Real Manipulation** <br> Gazebo 환경과 실제 UR5e 매니퓰레이터 간 정밀 제어 구현 | ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white) ![MoveIt2](https://img.shields.io/badge/MoveIt2-3C9ED5?style=flat-square) |
+| **[CartPole_RL](https://github.com/libok03/CartPole_RL)** | **Physical System Control** <br> DQN/PPO 비교를 통한 물리 시스템의 밸런싱 제어 연구 | ![RL](https://img.shields.io/badge/RL-Reinforcement--Learning-blueviolet?style=flat-square) ![Gym](https://img.shields.io/badge/OpenAI_Gym-2ECC71?style=flat-square) |
 
 ## 🧠 Technical Proficiency
 
