@@ -29,12 +29,12 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="https://github.com/libok03/ACCA_2025">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=ACCA_2025&theme=tokyonight" />
+      <a href="https://github.com/libok03/ros2_SimRealRobotControl">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=ros2_SimRealRobotControl&theme=tokyonight" />
       </a>
       <br/>
-      <sub><b>Autonomous Driving Architecture</b></sub><br/>
-      <sub>MPC · Hybrid A* · Multi-Sensor Fusion</sub>
+      <sub><b>Sim-to-Real Manipulation</b></sub><br/>
+      <sub>MoveIt2 · UR5e · Collision-free Planning</sub>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/libok03/PPO_SwingUp">
@@ -47,12 +47,12 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="https://github.com/libok03/ros2_SimRealRobotControl">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=ros2_SimRealRobotControl&theme=tokyonight" />
+      <a href="https://github.com/libok03/Atari_DQN_Agent">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=libok03&repo=Atari_DQN_Agent&theme=tokyonight" />
       </a>
       <br/>
-      <sub><b>Sim-to-Real Manipulation</b></sub><br/>
-      <sub>MoveIt2 · UR5e · Collision-free Planning</sub>
+      <sub><b>Atari DQN Agent</b></sub><br/>
+      <sub>Deep Q-Learning · Experience Replay</sub>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/libok03/CartPole_RL">
