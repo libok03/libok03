@@ -1,51 +1,85 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=280&section=header&text=Kang%20MyeongJin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Robotics%20Engineer%20%7C%20Control%20Theory%20%7C%20Reinforcement%20Learning&descAlignY=55&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=280&section=header&text=Kang%20MyeongJin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Autonomous%20Driving%20%7C%20Robotics%20%7C%20Robot%20Perception&descAlignY=55&descAlign=50)
+
 # Kang MyeongJin
 
-Robotics / Autonomous Driving / Control Systems
+Autonomous Driving / Robotics / Robot Perception
 
-I am an undergraduate robotics developer focusing on ROS2-based autonomous driving,
-vehicle control, behavior planning, and reinforcement learning for physical systems.
+I am an undergraduate robotics developer focusing on autonomous driving systems,
+behavior planning, robot perception, and learning-based control for physical robots.
 
 - President of ACCA, an autonomous driving team at Soongsil University
-- Working on ERP42-based autonomous driving architecture
+- Building ERP42-based autonomous driving software with ROS2 and C++
+- Exploring vision-language-action style driving, robot teleoperation, and perception pipelines
 - Interested in control theory, motion planning, robot learning, and sim-to-real robotics
 
 ---
 
-## Currently Working On
+## Currently Building
 
-- ROS2/C++ autonomous driving stack for ERP42
-- Behavior planning with hierarchical finite-state logic
-- Vehicle control using Stanley and MPC-style approaches
-- Obstacle handling using TTC and perception-based decision rules
-- Reinforcement learning experiments for underactuated control systems
+- End-to-end driving control from camera, LiDAR, and pose sequences
+- Hierarchical finite-state behavior planning for autonomous driving scenarios
+- Multi-camera object detection and inventory estimation using RF-DETR and YOLO
+- LeRobot SO-101 master-slave teleoperation demos
+- ERP42 autonomous driving architecture for ACCA projects
 
 ---
 
-## Featured Projects
+## Featured Robotics Projects
 
 | Project | Focus | Stack |
 |---|---|---|
+| [HFSM](https://github.com/libok03/HFSM) | Hierarchical finite-state behavior decision stack for autonomous driving | Python, ROS, Catkin |
 | [ACCA2026](https://github.com/libok03/ACCA2026) | ROS2-based autonomous driving system for ERP42 | C++, Python, ROS2 |
+| [maker_fair_2026_teleoperation_lerobot](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot) | LeRobot SO-101 master-slave teleoperation project site | HTML, CSS, GitHub Pages |
+
+---
+
+## Robot Perception Projects
+
+| Project | Focus | Stack |
+|---|---|---|
+| [RF_Detr_Based_Inventory_management](https://github.com/libok03/RF_Detr_Based_Inventory_management) | Multi-camera unmanned-store inventory estimation with object detection, temporal filtering, and camera fusion | Python, RF-DETR, YOLO |
+
+---
+
+## AI Driving Projects
+
+| Project | Focus | Stack |
+|---|---|---|
+| [VLA_Driving](https://github.com/libok03/VLA_Driving) | Predicts steering and speed from camera, LiDAR, and pose sequences using ResNet18 + GRU | Python, PyTorch, ROS2 |
+
+---
+
+## Reinforcement Learning Projects
+
+| Project | Focus | Stack |
+|---|---|---|
 | [PPO_SwingUp](https://github.com/libok03/PPO_SwingUp) | PPO-based swing-up control experiment | Python, PyTorch, RL |
 | [Atari_DQN_Agent](https://github.com/libok03/Atari_DQN_Agent) | DQN implementation for Atari environments | Python, PyTorch, Gym |
-| [CartPole_RL](https://github.com/libok03/CartPole_RL) | Basic RL control experiments | Python, RL |
-| [libok03.github.io](https://github.com/libok03/libok03.github.io) | Technical blog and project logs | Jekyll, SCSS |
+| [CartPole_RL](https://github.com/libok03/CartPole_RL) | Basic reinforcement learning control experiments | Python, RL |
 
 ---
 
 ## Engineering Focus
 
 ### Autonomous Driving
-- Global/local planning pipeline
-- Behavior decision logic
+- ROS2-based driving architecture
+- Global and local planning pipeline
+- HFSM behavior decision logic
 - TTC-based obstacle handling
 - Vehicle control and path tracking
 
-### Robot Control
-- ROS2 and MoveIt2-based manipulator experiments
-- Gazebo simulation workflow
-- UR5e / Robotiq gripper study
+### Robot Perception
+- RF-DETR and YOLO-based object detection
+- Multi-camera result fusion
+- Temporal filtering for stable object counts
+- Dataset extraction and inference pipelines
+
+### Robot Learning & Teleoperation
+- Camera, LiDAR, and pose sequence modeling
+- ResNet and recurrent model based driving control
+- LeRobot-based master-slave teleoperation
+- Sim-to-real robotics workflow
 
 ### Reinforcement Learning
 - PPO for continuous control
@@ -57,28 +91,22 @@ vehicle control, behavior planning, and reinforcement learning for physical syst
 ## Tech Stack
 
 **Robotics**
-ROS2, MoveIt2, Gazebo, RViz, URDF/Xacro
+ROS2, ROS Noetic, MoveIt2, Gazebo, RViz, URDF/Xacro, LeRobot
 
 **Languages**
-C++, Python, MATLAB
+C++, Python, MATLAB, HTML/CSS
 
 **Control / AI**
-Stanley Controller, MPC-style control, PID/LQR basics, PPO, DQN
+Stanley Controller, MPC-style control, PID/LQR basics, PPO, DQN, ResNet, GRU
+
+**Perception**
+RF-DETR, YOLO, OpenCV, multi-camera fusion, temporal filtering
 
 **Tools**
-Git, Docker, Linux, Jupyter, TensorBoard
-
----
-
-## Technical Logs
-
-- [UR5e + Robotiq MoveIt2 실험 기록](https://libok03.github.io)
-- [ROS2 / Gazebo / MoveIt2 troubleshooting](https://libok03.github.io)
-- [RL control experiment logs](https://libok03.github.io)
+Git, Docker, Linux, Jupyter, TensorBoard, GitHub Pages
 
 ---
 
 ## Contact
 
 - Email: markpiano01@gmail.com
-- Blog: https://libok03.github.io
