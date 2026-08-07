@@ -31,7 +31,7 @@ My work spans multimodal perception and sequential learning, real-world robot sy
 **Neural Architecture Search · Multi-Objective Optimization · TensorRT · YOLO**
 
 <p align="center">
-  <img src="assets/hw_nas_results.png" width="760" alt="HW-NAS Pareto front and hypervolume convergence">
+  <img src="assets/hw_nas_results.png" width="480" alt="HW-NAS Pareto front and hypervolume convergence">
 </p>
 <p align="center"><sub>Accuracy–latency Pareto search and convergence comparison against Random Search.</sub></p>
 
@@ -79,7 +79,7 @@ Multi-camera system that converts frame-level product detections into temporally
 **ROS 2 · Path Planning · State Machine · Sensor Integration · MPC**
 
 <p align="center">
-  <img src="assets/acca_2025_real_vehicle.jpg" width="720" alt="ERP42 real-vehicle integration and testing">
+  <img src="assets/acca_2025_real_vehicle.jpg" width="460" alt="ERP42 real-vehicle integration and testing">
 </p>
 <p align="center"><sub>Real-vehicle integration and testing with the ERP42 platform.</sub></p>
 
@@ -110,7 +110,7 @@ Team repository for the 2026 AI/SW Mobility Competition, used as the simulation 
 **PyTorch · Multimodal Fusion · Sequential Modeling · ROS · Real-Time Inference**
 
 <p align="center">
-  <img src="assets/morai_multimodal_demo.gif" width="760" alt="MORAI multimodal learning-based planning demo">
+  <img src="assets/morai_multimodal_demo.gif" width="560" alt="MORAI multimodal learning-based planning demo">
 </p>
 <p align="center"><sub>Learning-based planning demo in the MORAI simulation environment.</sub></p>
 
@@ -151,7 +151,7 @@ Currently building a LeRobot SO-101 teleoperation setup and exploring robot-lear
 - Organized real-robot and simulation experiments
 
 <p align="center">
-  <img src="assets/acca_team.jpg" width="720" alt="ACCA team at Soongsil University">
+  <img src="assets/acca_team.jpg" width="620" alt="ACCA team at Soongsil University">
 </p>
 <p align="center"><sub>ACCA team, Soongsil University.</sub></p>
 
