@@ -74,34 +74,6 @@ Multi-camera system that converts frame-level product detections into temporally
 
 ---
 
-### [Multimodal Sequential Learning for Robotic Planning](https://github.com/libok03/VLA_Driving)
-
-**PyTorch · Multimodal Fusion · Sequential Modeling · ROS · Real-Time Inference**
-
-<p align="center">
-  <img src="assets/morai_multimodal_demo.gif" width="760" alt="MORAI multimodal learning-based planning demo">
-</p>
-<p align="center"><sub>Learning-based planning demo in the MORAI simulation environment.</sub></p>
-
-Learning-based planning system evaluated in MORAI as a testbed for multimodal robot learning.
-
-**Project Highlights**
-- Front/left/right camera, LiDAR BEV, robot state, localization, and route information
-- ROS-based synchronized temporal dataset construction
-- Learning-based sequential prediction for motion planning
-- Approximately **18.4 ms model inference latency** and **20 ms end-to-end processing latency** on the target compute environment
-
-**My Contribution**
-- Designed the multimodal learning model
-- Collected and labeled training data
-- Implemented the training pipeline and inference code
-- Integrated the model into the ROS runtime
-- Performed and validated real-time inference
-
-> MPC and local-route modules were implemented by other team members.
-
----
-
 ### [ERP42 Real-Robot Planning, State Machine & MPC Optimization](https://github.com/libok03/ACCA_2025)
 
 **ROS 2 · Path Planning · State Machine · Sensor Integration · MPC**
@@ -125,11 +97,41 @@ Real-world robotics project using the ERP42 platform.
 
 **MORAI · ROS · Simulation · Multimodal Data · System Integration**
 
-Team repository for the 2026 AI/SW Mobility Competition, used as the simulation and system-integration environment for the multimodal learning project above.
+Team repository for the 2026 AI/SW Mobility Competition, used as the simulation and system-integration environment for the multimodal learning project below.
 
 ---
 
 ## Ongoing Work
+
+### [Multimodal Sequential Learning for Robotic Planning](https://github.com/libok03/VLA_Driving)
+
+**Status: In Progress**
+
+**PyTorch · Multimodal Fusion · Sequential Modeling · ROS · Real-Time Inference**
+
+<p align="center">
+  <img src="assets/morai_multimodal_demo.gif" width="760" alt="MORAI multimodal learning-based planning demo">
+</p>
+<p align="center"><sub>Learning-based planning demo in the MORAI simulation environment.</sub></p>
+
+Learning-based planning system being developed and evaluated in MORAI as a testbed for multimodal robot learning.
+
+**Project Highlights**
+- Front/left/right camera, LiDAR BEV, robot state, localization, and route information
+- ROS-based synchronized temporal dataset construction
+- Learning-based sequential prediction for motion planning
+- Approximately **18.4 ms model inference latency** and **20 ms end-to-end processing latency** on the target compute environment
+
+**My Contribution**
+- Designed the multimodal learning model
+- Collected and labeled training data
+- Implemented the training pipeline and inference code
+- Integrated the model into the ROS runtime
+- Performed and validated real-time inference
+
+> MPC and local-route modules were implemented by other team members.
+
+---
 
 ### [LeRobot SO-101 Teleoperation](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot)
 
