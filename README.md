@@ -31,16 +31,10 @@ My work spans **multimodal perception and sequential learning, real-world robot 
 
 **Neural Architecture Search · Multi-Objective Optimization · TensorRT · YOLO**
 
-<!--
-Recommended visual extracted from the KCC 2026 poster:
-Pareto Front + Hypervolume convergence / validation comparison
-Upload as: assets/hw_nas_results.png
-Then uncomment:
 <p align="center">
   <img src="assets/hw_nas_results.png" width="760" alt="HW-NAS Pareto front and hypervolume convergence">
 </p>
 <p align="center"><sub>Accuracy–latency Pareto search and convergence comparison against Random Search.</sub></p>
--->
 
 Hardware-aware NAS pipeline for jointly optimizing perception accuracy and inference latency under limited computational resources.
 
@@ -56,16 +50,10 @@ Hardware-aware NAS pipeline for jointly optimizing perception accuracy and infer
 
 **RF-DETR · YOLO · Multi-Camera Fusion · Temporal Modeling**
 
-<!--
-Recommended visual extracted from the final report (system pipeline figure):
-5-camera video → 3-frame temporal mean → RF-DETR → Static Interval → Event Candidate → False Endpoint Suppression → Event Merge → Final Event CSV
-Upload as: assets/rfdetr_pipeline.png
-Then uncomment:
 <p align="center">
   <img src="assets/rfdetr_pipeline.png" width="760" alt="RF-DETR multi-camera inventory estimation pipeline">
 </p>
 <p align="center"><sub>Multi-camera temporal perception pipeline for robust purchase/return event estimation.</sub></p>
--->
 
 Multi-camera perception pipeline for robust product-state and inventory-event estimation in an unmanned retail environment.
 
@@ -96,14 +84,10 @@ Learning-based planning system evaluated in the **MORAI autonomous-driving simul
 
 **ROS 2 · Path Planning · State Machine · Sensor Integration · MPC**
 
-<!--
-Upload the first photo from this conversation as: assets/acca_2025_real_vehicle.jpg
-Then uncomment:
 <p align="center">
   <img src="assets/acca_2025_real_vehicle.jpg" width="720" alt="ERP42 real-vehicle integration and testing">
 </p>
 <p align="center"><sub>Real-vehicle integration and testing with the ERP42 platform.</sub></p>
--->
 
 Real-world robotics project using the ERP42 platform.
 
@@ -164,14 +148,10 @@ Hyeonbeen Jang · **MyeongJin Kang**
 - Managed integration work across perception, localization, planning, control, and learning components
 - Organized real-robot and simulation experiments
 
-<!--
-Upload the second photo from this conversation as: assets/acca_team.jpg
-Then uncomment:
 <p align="center">
   <img src="assets/acca_team.jpg" width="720" alt="ACCA team at Soongsil University">
 </p>
 <p align="center"><sub>ACCA team, Soongsil University.</sub></p>
--->
 
 ---
 
