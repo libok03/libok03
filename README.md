@@ -9,7 +9,6 @@ Mechanical Engineering undergraduate at **Soongsil University** interested in le
 My work spans multimodal perception and sequential learning, real-world robot systems, optimal control, and hardware-aware deep learning. I am particularly interested in connecting **perception, learning, planning, and control** on physical robotic systems.
 
 - President of **ACCA**, Soongsil University robotics/autonomous-systems team
-- Undergraduate research experience in hardware-aware neural architecture search and real-time AI
 - Experience with real-vehicle robotics, ROS/ROS 2, multimodal learning, perception, and optimal control
 
 ---
@@ -46,8 +45,8 @@ Hardware-aware NAS project for jointly optimizing detector accuracy and inferenc
 
 **My Contribution**
 - Conducted model training and experimental evaluation
-- Contributed to paper writing
-- Designed and prepared the KCC 2026 poster presentation
+- Contributed to manuscript writing
+- Designed and prepared the project poster
 
 ---
 
@@ -140,22 +139,7 @@ Currently building a LeRobot SO-101 teleoperation setup and exploring robot-lear
 
 ---
 
-## Publication
-
-**Latency-Calibrated Hardware-Aware Neural Architecture Search for Small Object Detection in Autonomous Driving Environments**  
-Hyeonbeen Jang · **MyeongJin Kang**  
-*Korea Computer Congress (KCC) 2026 · Undergraduate Session*
-
----
-
-## Research & Leadership
-
-### Undergraduate Research Intern
-**Physical AI Specialized Laboratory, Soongsil University · 2026**
-
-- Hardware-aware neural architecture search
-- Real-time inference optimization
-- Deep-learning experiments for resource-constrained systems
+## Leadership
 
 ### President
 **ACCA, Soongsil University · 2026**
@@ -173,23 +157,17 @@ Hyeonbeen Jang · **MyeongJin Kang**
 
 ## Technical Skills
 
-**Programming**  
-Python · C++ · MATLAB
+**Languages & ML**  
+Python · C++ · PyTorch · TensorRT
 
-**Machine Learning**  
-PyTorch · TensorRT · YOLO · RF-DETR · Multimodal Fusion · Sequential Models · Reinforcement Learning
+**Robotics & Control**  
+ROS · ROS 2 · MPC · PID · State Machines · Path Planning
 
-**Robotics**  
-ROS · ROS 2 · RViz · Gazebo · MoveIt 2 · LeRobot
-
-**Planning & Control**  
-MPC · Stanley Controller · PID · State Machines · Path Planning
-
-**Perception & Sensors**  
-Camera · LiDAR · IMU · GNSS · OpenCV · Multi-Camera Fusion
+**Perception**  
+YOLO · RF-DETR · OpenCV · Camera · LiDAR · IMU · GNSS
 
 **Systems**  
-Linux · Docker · Git · CUDA · TensorBoard
+Linux · Git · Docker · CUDA
 
 ---
 
