@@ -1,112 +1,183 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=280&section=header&text=Kang%20MyeongJin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Autonomous%20Driving%20%7C%20Robotics%20%7C%20Robot%20Perception&descAlignY=55&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=Kang%20MyeongJin&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Physical%20AI%20%7C%20Robot%20Learning%20%7C%20Multimodal%20Systems%20%7C%20Robotics&descAlignY=56&descAlign=50)
 
 # Kang MyeongJin
 
-Autonomous Driving / Robotics / Robot Perception
+**Physical AI · Robot Learning · Multimodal Systems · Robotics**
 
-I am an undergraduate robotics developer focusing on autonomous driving systems,
-behavior planning, robot perception, and learning-based control for physical robots.
+Mechanical Engineering undergraduate at **Soongsil University** interested in learning-based robotics and Physical AI.
 
-- President of ACCA, an autonomous driving team at Soongsil University
-- Building ERP42-based autonomous driving software with ROS2 and C++
-- Exploring vision-language-action style driving, robot teleoperation, and perception pipelines
-- Interested in control theory, motion planning, robot learning, and sim-to-real robotics
+My work spans **multimodal perception and sequential learning, real-world robot systems, optimal control, and hardware-aware deep learning**. I am particularly interested in connecting perception, learning, planning, and control on physical robotic systems.
 
----
-
-## Currently Building
-
-- End-to-end driving control from camera, LiDAR, and pose sequences
-- Hierarchical finite-state behavior planning for autonomous driving scenarios
-- Multi-camera object detection and inventory estimation using RF-DETR and YOLO
-- LeRobot SO-101 master-slave teleoperation demos
-- ERP42 autonomous driving architecture for ACCA projects
+- President of **ACCA**, Soongsil University robotics/autonomous-systems team
+- Undergraduate research experience in **hardware-aware neural architecture search and real-time AI**
+- Experience with **real-vehicle robotics, ROS/ROS 2, multimodal learning, perception, and optimal control**
 
 ---
 
-## Featured Robotics Projects
+## Research Interests
 
-| Project | Focus | Stack |
-|---|---|---|
-| [HFSM](https://github.com/libok03/HFSM) | Hierarchical finite-state behavior decision stack for autonomous driving | Python, ROS, Catkin |
-| [ACCA2026](https://github.com/libok03/ACCA2026) | ROS2-based autonomous driving system for ERP42 | C++, Python, ROS2 |
-| [maker_fair_2026_teleoperation_lerobot](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot) | LeRobot SO-101 master-slave teleoperation project site | HTML, CSS, GitHub Pages |
-
----
-
-## Robot Perception Projects
-
-| Project | Focus | Stack |
-|---|---|---|
-| [RF_Detr_Based_Inventory_management](https://github.com/libok03/RF_Detr_Based_Inventory_management) | Multi-camera unmanned-store inventory estimation with object detection, temporal filtering, and camera fusion | Python, RF-DETR, YOLO |
+- Physical AI & Embodied Intelligence
+- Multimodal Robot Learning
+- Vision-Language-Action Models
+- Robot Learning & Control
+- Sim-to-Real and Real-World Robotics
+- Efficient & Hardware-Aware AI
 
 ---
 
-## AI Driving Projects
+## Selected Research & Engineering Projects
 
-| Project | Focus | Stack |
-|---|---|---|
-| [VLA_Driving](https://github.com/libok03/VLA_Driving) | Predicts steering and speed from camera, LiDAR, and pose sequences using ResNet18 + GRU | Python, PyTorch, ROS2 |
+### [Hardware-Aware Neural Architecture Search](https://github.com/libok03/HW-NAS-YOLO)
 
----
+**Neural Architecture Search · Multi-Objective Optimization · TensorRT · YOLO**
 
-## Reinforcement Learning Projects
+Hardware-aware NAS pipeline for jointly optimizing perception accuracy and inference latency under limited computational resources.
 
-| Project | Focus | Stack |
-|---|---|---|
-| [PPO_SwingUp](https://github.com/libok03/PPO_SwingUp) | PPO-based swing-up control experiment | Python, PyTorch, RL |
-| [Atari_DQN_Agent](https://github.com/libok03/Atari_DQN_Agent) | DQN implementation for Atari environments | Python, PyTorch, Gym |
-| [CartPole_RL](https://github.com/libok03/CartPole_RL) | Basic reinforcement learning control experiments | Python, RL |
+- Designed a YOLO11n-based architecture search space over block type, depth, and attention modules
+- Applied `3 → 15 → 50 epoch` multi-fidelity evaluation with Successive Halving
+- Used Random Forest uncertainty to selectively measure TensorRT FP16 latency on hardware
+- Integrated NSGA-II-based multi-objective optimization for accuracy–latency Pareto search
+- Related work presented at the **Korea Computer Congress (KCC) 2026 Undergraduate Session**
 
 ---
 
-## Engineering Focus
+### [Multi-Camera Perception & Inventory Estimation](https://github.com/libok03/RF_Detr_Based_Inventory_management)
 
-### Autonomous Driving
-- ROS2-based driving architecture
-- Global and local planning pipeline
-- HFSM behavior decision logic
-- TTC-based obstacle handling
-- Vehicle control and path tracking
+**RF-DETR · YOLO · Multi-Camera Fusion · Temporal Modeling**
 
-### Robot Perception
-- RF-DETR and YOLO-based object detection
-- Multi-camera result fusion
-- Temporal filtering for stable object counts
-- Dataset extraction and inference pipelines
+Multi-camera perception pipeline for robust product-state and inventory-event estimation in an unmanned retail environment.
 
-### Robot Learning & Teleoperation
-- Camera, LiDAR, and pose sequence modeling
-- ResNet and recurrent model based driving control
-- LeRobot-based master-slave teleoperation
-- Sim-to-real robotics workflow
-
-### Reinforcement Learning
-- PPO for continuous control
-- DQN for discrete action environments
-- Reward design and training-log analysis
+- Processed synchronized video from five camera viewpoints
+- Trained RF-DETR-based detectors for 60 product classes
+- Converted frame-level detections into temporal static intervals and purchase/return event candidates
+- Used temporal filtering, pixel-difference validation, and cross-camera persistence to suppress false events caused by occlusion and detector dropout
+- Detection performance: **96.76% mAP50–95 · 98.40% Precision · 98.10% Recall**
 
 ---
 
-## Tech Stack
+### [Multimodal Sequential Learning for Robotic Planning](https://github.com/libok03/VLA_Driving)
 
-**Robotics**
-ROS2, ROS Noetic, MoveIt2, Gazebo, RViz, URDF/Xacro, LeRobot
+**PyTorch · Multimodal Fusion · Sequential Modeling · Real-Time Inference**
 
-**Languages**
-C++, Python, MATLAB, HTML/CSS
+Learning-based planning system evaluated in the **MORAI autonomous-driving simulation environment** as a testbed for multimodal robot learning.
 
-**Control / AI**
-Stanley Controller, MPC-style control, PID/LQR basics, PPO, DQN, ResNet, GRU
+- Fused front/left/right camera images, LiDAR BEV, robot state, localization, and route information
+- Built synchronized temporal datasets from ROS recordings
+- Developed learning-based sequential prediction models for motion planning
+- Measured approximately **18.4 ms model inference latency** and **20 ms end-to-end processing latency** on the target compute environment
 
-**Perception**
-RF-DETR, YOLO, OpenCV, multi-camera fusion, temporal filtering
+> MORAI is used here as an experimental robotics platform; autonomous driving itself is not my primary research direction.
 
-**Tools**
-Git, Docker, Linux, Jupyter, TensorBoard, GitHub Pages
+---
+
+### [ERP42 Real-Robot Planning, State Machine & MPC Optimization](https://github.com/libok03/ACCA_2025)
+
+**ROS 2 · Path Planning · State Machine · Sensor Integration · MPC**
+
+Real-world robotics project using the ERP42 platform.
+
+**My role:** Path Planning · State Machine · Sensor Integration · MPC Optimization
+
+- Developed path-generation and path-management pipelines from localization measurements using cubic-spline interpolation
+- Implemented mission-dependent state transitions for normal driving, obstacle handling, U-turn, and other scenarios
+- Worked with GNSS, IMU, LiDAR, odometry, and localization inputs in the ROS 2 system
+- Analyzed lateral error, heading error, velocity error, and oscillation during real-vehicle testing
+- Tuned MPC cost matrices and vehicle constraints to improve trajectory-tracking stability and control response
+
+<!--
+After uploading the project photo to assets/acca_2025_real_vehicle.jpg, uncomment:
+<p align="center">
+  <img src="assets/acca_2025_real_vehicle.jpg" width="720" alt="ERP42 real-vehicle integration and testing">
+</p>
+-->
+
+---
+
+### [MORAI-Based Multimodal Robotics System](https://github.com/libok03/ACCA2026)
+
+**MORAI · ROS · Simulation · Multimodal Data · Learning-Based Planning**
+
+Simulation-based robotics system developed for the 2026 AI/SW Mobility Competition.
+
+- Built synchronized data-collection pipelines for camera, LiDAR, localization, vehicle state, and route information
+- Designed scenario-based recording and labeling workflows
+- Integrated perception, planning, and control components in the MORAI environment
+- Used the simulator as an experimental platform for multimodal learning and real-time planning
+
+---
+
+### [LeRobot SO-101 Teleoperation](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot)
+
+**LeRobot · Teleoperation · Robot Learning**
+
+- Built a master–slave teleoperation workflow with the SO-101 platform
+- Worked with physical robot control and demonstration-data collection
+- Explored teleoperation as a data interface for imitation-learning and robot-learning pipelines
+
+---
+
+## Publication
+
+**Latency-Calibrated Hardware-Aware Neural Architecture Search for Small Object Detection in Autonomous Driving Environments**  
+Hyeonbeen Jang · **MyeongJin Kang**  
+*Korea Computer Congress (KCC) 2026 · Undergraduate Session*
+
+---
+
+## Research & Leadership
+
+### Undergraduate Research Intern
+**Physical AI Specialized Laboratory, Soongsil University · 2026**
+
+- Hardware-aware neural architecture search
+- Real-time inference optimization
+- Deep-learning experiments for resource-constrained systems
+
+### President
+**ACCA, Soongsil University · 2026**
+
+- Coordinated robotics and autonomous-system projects
+- Managed integration work across perception, localization, planning, control, and learning components
+- Organized real-robot and simulation experiments
+
+<!--
+After uploading the team photo to assets/acca_team.jpg, uncomment:
+<p align="center">
+  <img src="assets/acca_team.jpg" width="720" alt="ACCA team">
+</p>
+-->
+
+---
+
+## Technical Skills
+
+**Programming**  
+Python · C++ · MATLAB
+
+**Machine Learning**  
+PyTorch · TensorRT · YOLO · RF-DETR · Multimodal Fusion · Sequential Models · Reinforcement Learning
+
+**Robotics**  
+ROS · ROS 2 · RViz · Gazebo · MoveIt 2 · LeRobot
+
+**Planning & Control**  
+MPC · Stanley Controller · PID · State Machines · Path Planning
+
+**Perception & Sensors**  
+Camera · LiDAR · IMU · GNSS · OpenCV · Multi-Camera Fusion
+
+**Systems**  
+Linux · Docker · Git · CUDA · TensorBoard
+
+---
+
+## Other Experiments
+
+[PPO Swing-Up](https://github.com/libok03/PPO_SwingUp) · [Atari DQN](https://github.com/libok03/Atari_DQN_Agent) · [CartPole RL](https://github.com/libok03/CartPole_RL)
 
 ---
 
 ## Contact
 
-- Email: markpiano01@gmail.com
+- Email: **markpiano01@gmail.com**
+- GitHub: **[@libok03](https://github.com/libok03)**
