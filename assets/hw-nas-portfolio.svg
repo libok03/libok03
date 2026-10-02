@@ -2,7 +2,7 @@
 <text x="34" y="47" font-size="15" fill="#0f8a83" text-anchor="start">HARDWARE-AWARE NAS</text>
 <text x="34" y="90" font-size="33" fill="#162c43" text-anchor="start">Search quality, accuracy and latency</text>
 <text x="34" y="121" font-size="18" fill="#617387" text-anchor="start">Existing experiment plots · redesigned for readability</text>
-<rect x="24" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<rect x="24" y="153" width="488" height="445" rx="16" fill="white" stroke="#dfe7ef"/>
 <text x="47" y="190" font-size="23" fill="#162c43" text-anchor="start">01  Accuracy during search</text>
 <text x="47" y="218" font-size="16" fill="#617387" text-anchor="start">Points: candidates · lines: best so far</text>
 <path d="M86 492h400" stroke="#e8edf2" fill="none"/>
@@ -46,11 +46,11 @@
 <circle cx="149.1578947368421" cy="408.3428571428572" r="4.8" fill="#d98228" opacity="0.7"/>
 <polyline points="86.00,342.81 107.05,342.81 128.11,342.81 149.16,342.81 170.21,322.94 191.26,322.94 212.32,322.94 233.37,297.85 254.42,297.85 275.47,297.85 296.53,288.43 317.58,288.43 338.63,288.43 359.68,288.43 380.74,288.43 401.79,288.43 422.84,279.37 443.89,279.37 464.95,279.37 486.00,279.37" fill="none" stroke="#0f8a83" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <polyline points="86.00,418.80 107.05,418.80 128.11,348.39 149.16,348.39" fill="none" stroke="#d98228" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
-<path d="M47 552h23" stroke="#0f8a83" stroke-width="3"/>
-<text x="77" y="557" font-size="16" fill="#617387" text-anchor="start">NAS</text>
-<path d="M157 552h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
-<text x="187" y="557" font-size="16" fill="#617387" text-anchor="start">Random search</text>
-<rect x="536" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<path d="M47 575h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="77" y="580" font-size="16" fill="#617387" text-anchor="start">NAS</text>
+<path d="M157 575h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="187" y="580" font-size="16" fill="#617387" text-anchor="start">Random search</text>
+<rect x="536" y="153" width="488" height="445" rx="16" fill="white" stroke="#dfe7ef"/>
 <text x="559" y="190" font-size="23" fill="#162c43" text-anchor="start">02  Pareto-set convergence</text>
 <text x="559" y="218" font-size="16" fill="#617387" text-anchor="start">Hypervolume · latency reference: 6.2 ms</text>
 <path d="M598 461.5h400" stroke="#e8edf2" fill="none"/>
@@ -70,11 +70,11 @@
 <text x="798" y="548" font-size="18" fill="#617387" text-anchor="middle">Evaluated architectures</text>
 <polyline points="608.00,478.27 638.00,478.27 648.00,441.67 658.00,385.25 668.00,385.25 678.00,331.87 698.00,331.87 708.00,319.67 718.00,319.67 728.00,315.10 738.00,315.10 748.00,312.05 758.00,312.05 768.00,289.18 798.00,289.18 808.00,286.12 818.00,286.12 828.00,280.02 858.00,280.02 868.00,266.30 998.00,266.30" fill="none" stroke="#0f8a83" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <polyline points="608.00,478.27 778.00,478.27 788.00,475.99 998.00,475.22" fill="none" stroke="#d98228" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
-<path d="M559 552h23" stroke="#0f8a83" stroke-width="3"/>
-<text x="589" y="557" font-size="16" fill="#617387" text-anchor="start">NAS</text>
-<path d="M669 552h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
-<text x="699" y="557" font-size="16" fill="#617387" text-anchor="start">Random search</text>
-<rect x="1048" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<path d="M559 575h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="589" y="580" font-size="16" fill="#617387" text-anchor="start">NAS</text>
+<path d="M669 575h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="699" y="580" font-size="16" fill="#617387" text-anchor="start">Random search</text>
+<rect x="1048" y="153" width="488" height="445" rx="16" fill="white" stroke="#dfe7ef"/>
 <text x="1071" y="190" font-size="23" fill="#162c43" text-anchor="start">03  Accuracy–latency trade-off</text>
 <text x="1071" y="218" font-size="16" fill="#617387" text-anchor="start">Pareto fronts at the plotted search stages</text>
 <path d="M1110 468.53846153846155h400" stroke="#e8edf2" fill="none"/>
@@ -110,10 +110,10 @@
 <circle cx="1130" cy="360.6153846153848" r="4.8" fill="#0f8a83" opacity="1"/>
 <circle cx="1142.2222222222222" cy="334.8076923076923" r="4.8" fill="#0f8a83" opacity="1"/>
 <circle cx="1151.111111111111" cy="276.1538461538462" r="4.8" fill="#0f8a83" opacity="1"/>
-<path d="M1071 552h23" stroke="#7378b8" stroke-width="3"/>
-<text x="1101" y="557" font-size="16" fill="#617387" text-anchor="start">Mid (66%)</text>
-<path d="M1237 552h23" stroke="#0f8a83" stroke-width="3"/>
-<text x="1267" y="557" font-size="16" fill="#617387" text-anchor="start">Final (100%)</text>
+<path d="M1071 575h23" stroke="#7378b8" stroke-width="3"/>
+<text x="1101" y="580" font-size="16" fill="#617387" text-anchor="start">Mid (66%)</text>
+<path d="M1237 575h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="1267" y="580" font-size="16" fill="#617387" text-anchor="start">Final (100%)</text>
 <text x="34" y="615" font-size="17" fill="#617387" text-anchor="start">Approximate reconstruction from the original image. Random-search accuracy is shown only through 4 evaluations.</text>
 <text x="34" y="640" font-size="16" fill="#617387" text-anchor="start">Panels have different displayed budgets; no cross-paper ranking or uncertainty estimates are implied.</text>
 </svg>
