@@ -31,6 +31,14 @@ Alongside technical work, I serve as **President of ACCA**, Soongsil University'
 [**VLA_Driving →**](https://github.com/libok03/VLA_Driving)  
 `PyTorch` `TCP` `Imitation Learning` `ROS` `MORAI`
 
+| Held-out prediction | Closed-loop evaluation | Neural inference |
+| :---: | :---: | :---: |
+| **0.2924 m** ADE | **100%** completion · **4 laps** | **11.02 ms** mean |
+| **0.5225 m** FDE @ **2 s** | **0.38 m** mean error · **0.55 m** RMSE | **18.05 ms** p95 |
+
+<sub>Measured in MORAI K-City; prediction accuracy, closed-loop performance, and model latency are separate evaluations.</sub>
+
+
 <p align="center">
   <a href="https://github.com/libok03/VLA_Driving">
     <img src="https://raw.githubusercontent.com/libok03/VLA_Driving/main/assets/morai_current/tcp_state_drive_stop_avoid.gif" width="720" alt="TCP open-loop recorded-bag replay showing DRIVE, STOP, and AVOID predictions">
@@ -63,10 +71,22 @@ MPC and local-route modules were implemented by other team members.
 [**HW-NAS-YOLO →**](https://github.com/libok03/HW-NAS-YOLO)  
 `YOLO11n` `NSGA-II` `Ray` `TensorRT FP16`
 
+| Multi-fidelity training | Parallel evaluation | Hardware measurement |
+| :---: | :---: | :---: |
+| **3 → 15 → 50 epochs** | **8 Ray workers** | **FP16** TensorRT |
+| **3 evaluation stages** | Asynchronous candidate evaluation | **20 warm-up + 50 timed runs** |
+
+<sub>Implemented search and benchmarking configuration; these numbers describe the method, not measured accuracy improvements.</sub>
+
+
+<details>
+<summary>View original experiment plots</summary>
+
 <p align="center">
-  <img src="assets/hw_nas_results.png" width="560" alt="HW-NAS accuracy-latency Pareto front and hypervolume convergence comparison">
-  <br><sub>Accuracy–latency Pareto search and convergence comparison</sub>
+  <img src="assets/hw_nas_results.png" width="960" alt="Original NAS validation mAP, hypervolume, and Pareto-front experiment plots">
 </p>
+
+</details>
 
 Searching detector architectures under a joint **accuracy–latency objective**.
 
@@ -81,6 +101,12 @@ Searching detector architectures under a joint **accuracy–latency objective**.
 ### SO-101: planning to physical motion
 [**SO-101 Teleoperation & MoveIt 2 →**](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot)  
 `ROS 2 Humble` `MoveIt 2` `LeRobot` `Gazebo Harmonic` `ros2_control`
+
+| Physical robot | Motor feedback | Motion planning |
+| :---: | :---: | :---: |
+| **5-axis arm + 1 gripper** | **6 STS3215 servos** | **3 planning pipelines** |
+| SO-101 follower execution | Measured joint-state feedback | OMPL · Pilz · STOMP |
+
 
 <p align="center">
   <a href="https://github.com/libok03/maker_fair_2026_teleoperation_lerobot">
@@ -102,6 +128,12 @@ Connecting motion planning to a physical **5-axis arm + gripper**, with feedback
 [**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
 `RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
 
+| Camera coverage | Recognition scope | Temporal filtering |
+| :---: | :---: | :---: |
+| **5 camera views** | **60 product classes** | **6 appearances / 8 frames** |
+| Class-wise camera fusion | Inventory count vectors | Report-derived stable setting |
+
+
 <p align="center">
   <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
 </p>
@@ -116,6 +148,14 @@ Converting frame-level detections into class counts, temporally filtered observa
 ### ERP42 real-vehicle robotics
 [**ACCA 2025 →**](https://github.com/libok03/ACCA_2025)  
 `ROS 2` `Path Planning` `State Machines` `MPC` `Sensor Integration`
+
+| Vehicle platform | LiDAR integration target | My engineering scope |
+| :---: | :---: | :---: |
+| **ERP42** | **32-channel VLP-32C** | **4 work areas** |
+| Real-vehicle autonomy | Sensor launch configuration | Planning · State machines · Sensors · MPC |
+
+<sub>Hardware and contribution scope; no completion-rate or tracking-error figure is asserted for this project.</sub>
+
 
 <p align="center">
   <img src="assets/acca_2025_real_vehicle.jpg" width="560" alt="ERP42 real-vehicle integration and testing">
@@ -151,10 +191,14 @@ My interests center on **robot learning and control**, **multimodal robot learni
 
 ## Other Engineering & Learning Experiments
 
-[UR5e simulation & pick-and-place](https://github.com/libok03/ros2_SimRealRobotControl) ·
-[PPO Swing-Up](https://github.com/libok03/PPO_SwingUp) ·
-[Atari DQN](https://github.com/libok03/Atari_DQN_Agent) ·
-[CartPole RL](https://github.com/libok03/CartPole_RL)
+| Project | Quantitative scope | Work |
+| :--- | :--- | :--- |
+| [UR5e pick-and-place](https://github.com/libok03/ros2_SimRealRobotControl) | **6-axis manipulator** + Robotiq **2F-85** | Gazebo simulation and MoveIt 2 pick-and-place |
+| [PPO Swing-Up](https://github.com/libok03/PPO_SwingUp) | **2 poles · 8 parallel environments · 5M timesteps configured** | Continuous-control training and evaluation logging |
+| [Atari DQN](https://github.com/libok03/Atari_DQN_Agent) | **2 game demos:** Q-Bert and Ms. Pac-Man | Visual reinforcement-learning experiments |
+| [CartPole RL](https://github.com/libok03/CartPole_RL) | **4 agent variants · 300K episodes per agent configured** | DQN, DDQN, Dueling DQN, and QR-DQN training harness |
+
+<sub>Training budgets above are code configurations; they do not imply completed runs or achieved rewards.</sub>
 
 ---
 
