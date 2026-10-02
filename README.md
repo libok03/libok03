@@ -149,20 +149,19 @@ Connecting motion planning to a physical **5-axis arm + gripper**, with feedback
 [**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
 `RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
 
-| Camera coverage | Recognition scope | Temporal filtering |
+| mAP50–95 | Precision | Recall |
 | :---: | :---: | :---: |
-| **5 camera views** | **60 product classes** | **6 appearances / 8 frames** |
-| Class-wise camera fusion | Inventory count vectors | Report-derived stable setting |
+| **96.76%** | **98.40%** | **98.10%** |
 
+**RF-DETR product-detection performance**, reported in the project presentation (slide 15). These are detector metrics; final inventory-count accuracy and purchase/return event F1 are separate evaluations.
 
 <p align="center">
   <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
 </p>
 
-**5 camera views · 60 product classes**  
-Converting frame-level detections into class counts, temporally filtered observations, and fused inventory estimates.
+Built a product-recognition and inventory-estimation system for **60 product classes across 5 camera views**. The event pipeline links frame-level detections into static intervals, validates purchase/return candidates with pixel differences, and uses cross-camera persistence to suppress false events caused by occlusion.
 
-**My contribution:** temporal event-estimation pipeline development and final report writing/organization. The public implementation includes detection, count extraction, temporal filtering, and class-wise camera fusion.
+**My contribution:** dataset cleaning and label/bounding-box quality checks, RF-DETR training, temporal event-estimation pipeline development, and final report writing/organization.
 
 ---
 
