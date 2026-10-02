@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="650" viewBox="0 0 1560 650" role="img" aria-labelledby="title desc"><title id="title">Hardware-aware NAS: search progress and Pareto evolution</title><desc id="desc">Three redesigned charts reconstructed approximately from the archived figure: validation mAP50, hypervolume convergence, and Pareto-front evolution. Not raw experimental data.</desc><rect width="1560" height="650" rx="22" fill="#f5f8fb"/><style>text{font-family:Arial,Helvetica,sans-serif;fill:#162c43}.small{font-size:17px;fill:#617387}.tick{font-size:17px;fill:#617387}.axis{font-size:18px;fill:#617387}</style>
+<text x="34" y="47" font-size="15" fill="#0f8a83" text-anchor="start">HARDWARE-AWARE NAS</text>
+<text x="34" y="90" font-size="33" fill="#162c43" text-anchor="start">Search quality, accuracy and latency</text>
+<text x="34" y="121" font-size="18" fill="#617387" text-anchor="start">Existing experiment plots · redesigned for readability</text>
+<rect x="24" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<text x="47" y="190" font-size="23" fill="#162c43" text-anchor="start">01  Accuracy during search</text>
+<text x="47" y="218" font-size="16" fill="#617387" text-anchor="start">Points: candidates · lines: best so far</text>
+<path d="M86 492h400" stroke="#e8edf2" fill="none"/>
+<text x="76" y="497" font-size="17" fill="#617387" text-anchor="end">40</text>
+<path d="M86 422.2857142857143h400" stroke="#e8edf2" fill="none"/>
+<text x="76" y="427.2857142857143" font-size="17" fill="#617387" text-anchor="end">42</text>
+<path d="M86 352.57142857142856h400" stroke="#e8edf2" fill="none"/>
+<text x="76" y="357.57142857142856" font-size="17" fill="#617387" text-anchor="end">44</text>
+<path d="M86 282.8571428571429h400" stroke="#e8edf2" fill="none"/>
+<text x="76" y="287.8571428571429" font-size="17" fill="#617387" text-anchor="end">46</text>
+<text x="86" y="517" font-size="17" fill="#617387" text-anchor="middle">1</text>
+<text x="170.21052631578948" y="517" font-size="17" fill="#617387" text-anchor="middle">5</text>
+<text x="275.4736842105263" y="517" font-size="17" fill="#617387" text-anchor="middle">10</text>
+<text x="380.7368421052631" y="517" font-size="17" fill="#617387" text-anchor="middle">15</text>
+<text x="486" y="517" font-size="17" fill="#617387" text-anchor="middle">20</text>
+<text x="86" y="236" font-size="16" fill="#617387" text-anchor="start">Validation mAP50 (%)</text>
+<text x="286" y="548" font-size="18" fill="#617387" text-anchor="middle">Evaluated architectures</text>
+<circle cx="86" cy="342.81142857142856" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="107.05263157894737" cy="346.29714285714283" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="128.10526315789474" cy="418.10285714285726" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="149.1578947368421" cy="425.7714285714286" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="170.21052631578948" cy="322.94285714285706" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="191.26315789473682" cy="342.46285714285716" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="212.31578947368422" cy="363.3771428571429" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="233.36842105263156" cy="297.8457142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="254.42105263157893" cy="302.7257142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="275.4736842105263" cy="302.7257142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="296.52631578947364" cy="288.4342857142856" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="317.57894736842104" cy="307.257142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="338.63157894736844" cy="291.2228571428572" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="359.6842105263158" cy="302.7257142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="380.7368421052631" cy="291.57142857142856" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="401.7894736842105" cy="346.99428571428587" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="422.84210526315786" cy="279.3714285714285" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="443.89473684210526" cy="307.6057142857143" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="464.9473684210526" cy="279.3714285714285" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="486" cy="286.34285714285716" r="4.8" fill="#0f8a83" opacity="0.28"/>
+<circle cx="86" cy="418.79999999999995" r="4.8" fill="#d98228" opacity="0.7"/>
+<circle cx="107.05263157894737" cy="481.54285714285726" r="4.8" fill="#d98228" opacity="0.7"/>
+<circle cx="128.10526315789474" cy="348.3885714285715" r="4.8" fill="#d98228" opacity="0.7"/>
+<circle cx="149.1578947368421" cy="408.3428571428572" r="4.8" fill="#d98228" opacity="0.7"/>
+<polyline points="86.00,342.81 107.05,342.81 128.11,342.81 149.16,342.81 170.21,322.94 191.26,322.94 212.32,322.94 233.37,297.85 254.42,297.85 275.47,297.85 296.53,288.43 317.58,288.43 338.63,288.43 359.68,288.43 380.74,288.43 401.79,288.43 422.84,279.37 443.89,279.37 464.95,279.37 486.00,279.37" fill="none" stroke="#0f8a83" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="86.00,418.80 107.05,418.80 128.11,348.39 149.16,348.39" fill="none" stroke="#d98228" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
+<path d="M47 552h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="77" y="557" font-size="16" fill="#617387" text-anchor="start">NAS</text>
+<path d="M157 552h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="187" y="557" font-size="16" fill="#617387" text-anchor="start">Random search</text>
+<rect x="536" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<text x="559" y="190" font-size="23" fill="#162c43" text-anchor="start">02  Pareto-set convergence</text>
+<text x="559" y="218" font-size="16" fill="#617387" text-anchor="start">Hypervolume · latency reference: 6.2 ms</text>
+<path d="M598 461.5h400" stroke="#e8edf2" fill="none"/>
+<text x="588" y="466.5" font-size="17" fill="#617387" text-anchor="end">2.28</text>
+<path d="M598 400.5h400" stroke="#e8edf2" fill="none"/>
+<text x="588" y="405.5" font-size="17" fill="#617387" text-anchor="end">2.32</text>
+<path d="M598 339.5h400" stroke="#e8edf2" fill="none"/>
+<text x="588" y="344.5" font-size="17" fill="#617387" text-anchor="end">2.36</text>
+<path d="M598 278.5h400" stroke="#e8edf2" fill="none"/>
+<text x="588" y="283.5" font-size="17" fill="#617387" text-anchor="end">2.4</text>
+<text x="598" y="517" font-size="17" fill="#617387" text-anchor="middle">0</text>
+<text x="698" y="517" font-size="17" fill="#617387" text-anchor="middle">10</text>
+<text x="798" y="517" font-size="17" fill="#617387" text-anchor="middle">20</text>
+<text x="898" y="517" font-size="17" fill="#617387" text-anchor="middle">30</text>
+<text x="998" y="517" font-size="17" fill="#617387" text-anchor="middle">40</text>
+<text x="598" y="236" font-size="16" fill="#617387" text-anchor="start">Hypervolume</text>
+<text x="798" y="548" font-size="18" fill="#617387" text-anchor="middle">Evaluated architectures</text>
+<polyline points="608.00,478.27 638.00,478.27 648.00,441.67 658.00,385.25 668.00,385.25 678.00,331.87 698.00,331.87 708.00,319.67 718.00,319.67 728.00,315.10 738.00,315.10 748.00,312.05 758.00,312.05 768.00,289.18 798.00,289.18 808.00,286.12 818.00,286.12 828.00,280.02 858.00,280.02 868.00,266.30 998.00,266.30" fill="none" stroke="#0f8a83" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="608.00,478.27 778.00,478.27 788.00,475.99 998.00,475.22" fill="none" stroke="#d98228" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
+<path d="M559 552h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="589" y="557" font-size="16" fill="#617387" text-anchor="start">NAS</text>
+<path d="M669 552h23" stroke="#d98228" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="699" y="557" font-size="16" fill="#617387" text-anchor="start">Random search</text>
+<rect x="1048" y="153" width="488" height="425" rx="16" fill="white" stroke="#dfe7ef"/>
+<text x="1071" y="190" font-size="23" fill="#162c43" text-anchor="start">03  Accuracy–latency trade-off</text>
+<text x="1071" y="218" font-size="16" fill="#617387" text-anchor="start">Pareto fronts at the plotted search stages</text>
+<path d="M1110 468.53846153846155h400" stroke="#e8edf2" fill="none"/>
+<text x="1100" y="473.53846153846155" font-size="17" fill="#617387" text-anchor="end">42</text>
+<path d="M1110 374.69230769230774h400" stroke="#e8edf2" fill="none"/>
+<text x="1100" y="379.69230769230774" font-size="17" fill="#617387" text-anchor="end">44</text>
+<path d="M1110 280.846153846154h400" stroke="#e8edf2" fill="none"/>
+<text x="1100" y="285.846153846154" font-size="17" fill="#617387" text-anchor="end">46</text>
+<text x="1132.2222222222222" y="517" font-size="17" fill="#617387" text-anchor="middle">1</text>
+<text x="1243.3333333333333" y="517" font-size="17" fill="#617387" text-anchor="middle">2</text>
+<text x="1354.4444444444443" y="517" font-size="17" fill="#617387" text-anchor="middle">3</text>
+<text x="1465.5555555555557" y="517" font-size="17" fill="#617387" text-anchor="middle">4</text>
+<text x="1110" y="236" font-size="16" fill="#617387" text-anchor="start">mAP50 (%)</text>
+<text x="1310" y="548" font-size="18" fill="#617387" text-anchor="middle">Latency (ms) · lower is better</text>
+<circle cx="1171.111111111111" cy="276.1538461538462" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1178.888888888889" cy="285.5384615384617" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1174.4444444444443" cy="306.65384615384613" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1155.5555555555554" cy="313.6923076923079" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1165.5555555555557" cy="292.5769230769232" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1154.4444444444443" cy="313.6923076923079" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1155.5555555555554" cy="473.2307692307693" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1152.2222222222222" cy="462.90769230769246" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1154.4444444444443" cy="366.24615384615396" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1130" cy="389.2384615384617" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1134.4444444444443" cy="361.0846153846155" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1194.4444444444443" cy="366.24615384615396" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<circle cx="1485.5555555555554" cy="307.5923076923078" r="4.8" fill="#a1acc0" opacity="0.45"/>
+<polyline points="1160.00,301.49 1226.67,292.58 1408.89,288.35" fill="none" stroke="#7378b8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1160" cy="301.4923076923077" r="4.8" fill="#7378b8" opacity="1"/>
+<circle cx="1226.6666666666667" cy="292.5769230769232" r="4.8" fill="#7378b8" opacity="1"/>
+<circle cx="1408.888888888889" cy="288.3538461538461" r="4.8" fill="#7378b8" opacity="1"/>
+<polyline points="1130.00,360.62 1142.22,334.81 1151.11,276.15" fill="none" stroke="#0f8a83" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1130" cy="360.6153846153848" r="4.8" fill="#0f8a83" opacity="1"/>
+<circle cx="1142.2222222222222" cy="334.8076923076923" r="4.8" fill="#0f8a83" opacity="1"/>
+<circle cx="1151.111111111111" cy="276.1538461538462" r="4.8" fill="#0f8a83" opacity="1"/>
+<path d="M1071 552h23" stroke="#7378b8" stroke-width="3"/>
+<text x="1101" y="557" font-size="16" fill="#617387" text-anchor="start">Mid (66%)</text>
+<path d="M1237 552h23" stroke="#0f8a83" stroke-width="3"/>
+<text x="1267" y="557" font-size="16" fill="#617387" text-anchor="start">Final (100%)</text>
+<text x="34" y="615" font-size="17" fill="#617387" text-anchor="start">Approximate reconstruction from the original image. Random-search accuracy is shown only through 4 evaluations.</text>
+<text x="34" y="640" font-size="16" fill="#617387" text-anchor="start">Panels have different displayed budgets; no cross-paper ranking or uncertainty estimates are implied.</text>
+</svg>
