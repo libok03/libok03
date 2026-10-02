@@ -5,9 +5,9 @@
 **Mechanical Engineering undergraduate at Soongsil University**  
 **Physical AI · Robot Learning · Multimodal Systems · Robotics**
 
-I work on connecting **perception, learning, planning, and control** in robotic systems. My experience spans real-vehicle autonomy on ERP42, multi-camera product perception, hardware-aware model optimization, learning-based driving in MORAI, and physical robot-arm integration.
+I work on connecting **perception, learning, planning, and control** in robotic systems. My experience spans learning-based driving in MORAI, hardware-aware model optimization, physical robot-arm integration, multi-camera product perception, and real-vehicle autonomy on ERP42.
 
-On ERP42, I worked on path planning, state machines, sensor integration, and MPC tuning. In learning-based driving, my work extends from collecting and preparing data to model development, training, evaluation, and ROS runtime integration. My current SO-101 work brings motion planning and measured joint feedback together on a physical manipulator.
+In learning-based driving, my work extends from collecting and preparing data to model development, training, evaluation, and ROS runtime integration. My research experience in hardware-aware NAS includes model training, experimental evaluation, manuscript writing, and poster preparation. My current SO-101 work brings motion planning and measured joint feedback together on a physical manipulator. Earlier work on multi-camera inventory estimation and ERP42 autonomy developed my experience in perception, planning, sensor integration, and control.
 
 Alongside technical work, I serve as **President of ACCA**, Soongsil University's robotics/autonomous-systems team, coordinating projects and system integration across perception, localization, planning, control, and learning.
 
@@ -17,64 +17,15 @@ Alongside technical work, I serve as **President of ACCA**, Soongsil University'
 
 | Project | Focus | My work / project scope |
 | :--- | :--- | :--- |
-| [ERP42 autonomy](https://github.com/libok03/ACCA_2025) | Real-vehicle planning & control | Path planning, state-machine design, sensor integration, MPC tuning |
-| [Multi-camera inventory](https://github.com/libok03/RF_Detr_Based_Inventory_management) | Perception & temporal estimation | Temporal event-estimation pipeline and report preparation |
-| [Hardware-aware NAS](https://github.com/libok03/HW-NAS-YOLO) | Accuracy–latency optimization | Model training, experimental evaluation, manuscript and poster preparation |
 | [Learning-based driving](https://github.com/libok03/VLA_Driving) | Policy learning & runtime integration | Model development, data preparation, training, inference, and ROS integration |
+| [Hardware-aware NAS](https://github.com/libok03/HW-NAS-YOLO) | Accuracy–latency optimization | Model training, experimental evaluation, manuscript and poster preparation |
 | [SO-101 manipulation](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot) | Simulation & physical robot execution | Ongoing project covering calibration, MoveIt 2 integration, and hardware feedback |
+| [Multi-camera inventory](https://github.com/libok03/RF_Detr_Based_Inventory_management) | Perception & temporal estimation | Temporal event-estimation pipeline and report preparation |
+| [ERP42 autonomy](https://github.com/libok03/ACCA_2025) | Real-vehicle planning & control | Path planning, state-machine design, sensor integration, MPC tuning |
 
 ---
 
 ## Selected Research & Engineering Projects
-
-### ERP42 real-vehicle robotics
-[**ACCA 2025 →**](https://github.com/libok03/ACCA_2025)  
-`ROS 2` `Path Planning` `State Machines` `MPC` `Sensor Integration`
-
-<p align="center">
-  <img src="assets/acca_2025_real_vehicle.jpg" width="560" alt="ERP42 real-vehicle integration and testing">
-</p>
-
-**My contribution:** path planning, state-machine design, sensor integration, and MPC optimization/tuning on the ERP42 platform.
-
-
----
-
-### Multi-camera inventory estimation
-[**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
-`RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
-
-<p align="center">
-  <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
-</p>
-
-**5 camera views · 60 product classes**  
-Converting frame-level detections into class counts, temporally filtered observations, and fused inventory estimates.
-
-**My contribution:** temporal event-estimation pipeline development and final report writing/organization. The public implementation includes detection, count extraction, temporal filtering, and class-wise camera fusion.
-
-
----
-
-### Hardware-aware neural architecture search
-[**HW-NAS-YOLO →**](https://github.com/libok03/HW-NAS-YOLO)  
-`YOLO11n` `NSGA-II` `Ray` `TensorRT FP16`
-
-<p align="center">
-  <img src="assets/hw_nas_results.png" width="560" alt="HW-NAS accuracy-latency Pareto front and hypervolume convergence comparison">
-  <br><sub>Accuracy–latency Pareto search and convergence comparison</sub>
-</p>
-
-Searching detector architectures under a joint **accuracy–latency objective**.
-
-- **3 → 15 → 50 epochs:** multi-fidelity evaluation with Successive Halving.
-- Block type, depth, and attention-module search with pretrained weight inheritance.
-- Random Forest latency prediction with selective TensorRT FP16 hardware measurements.
-
-**My contribution:** model training, experimental evaluation, manuscript writing, and poster preparation.
-
-
----
 
 ### Learning-based autonomous driving
 [**VLA_Driving →**](https://github.com/libok03/VLA_Driving)  
@@ -106,6 +57,24 @@ MPC and local-route modules were implemented by other team members.
 
 </details>
 
+---
+
+### Hardware-aware neural architecture search
+[**HW-NAS-YOLO →**](https://github.com/libok03/HW-NAS-YOLO)  
+`YOLO11n` `NSGA-II` `Ray` `TensorRT FP16`
+
+<p align="center">
+  <img src="assets/hw_nas_results.png" width="560" alt="HW-NAS accuracy-latency Pareto front and hypervolume convergence comparison">
+  <br><sub>Accuracy–latency Pareto search and convergence comparison</sub>
+</p>
+
+Searching detector architectures under a joint **accuracy–latency objective**.
+
+- **3 → 15 → 50 epochs:** multi-fidelity evaluation with Successive Halving.
+- Block type, depth, and attention-module search with pretrained weight inheritance.
+- Random Forest latency prediction with selective TensorRT FP16 hardware measurements.
+
+**My contribution:** model training, experimental evaluation, manuscript writing, and poster preparation.
 
 ---
 
@@ -126,6 +95,33 @@ Connecting motion planning to a physical **5-axis arm + gripper**, with feedback
 - **3 planning pipelines:** OMPL, Pilz, and STOMP.
 - Motor setup and calibration tools, trajectory execution, and measured joint-state feedback.
 - Ongoing work: teleoperation and demonstration-data workflows; intermittent gripper voltage alarms remain under investigation.
+
+---
+
+### Multi-camera inventory estimation
+[**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
+`RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
+
+<p align="center">
+  <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
+</p>
+
+**5 camera views · 60 product classes**  
+Converting frame-level detections into class counts, temporally filtered observations, and fused inventory estimates.
+
+**My contribution:** temporal event-estimation pipeline development and final report writing/organization. The public implementation includes detection, count extraction, temporal filtering, and class-wise camera fusion.
+
+---
+
+### ERP42 real-vehicle robotics
+[**ACCA 2025 →**](https://github.com/libok03/ACCA_2025)  
+`ROS 2` `Path Planning` `State Machines` `MPC` `Sensor Integration`
+
+<p align="center">
+  <img src="assets/acca_2025_real_vehicle.jpg" width="560" alt="ERP42 real-vehicle integration and testing">
+</p>
+
+**My contribution:** path planning, state-machine design, sensor integration, and MPC optimization/tuning on the ERP42 platform.
 
 ## Research Interests
 
