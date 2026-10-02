@@ -79,14 +79,11 @@ MPC and local-route modules were implemented by other team members.
 <sub>Implemented search and benchmarking configuration; these numbers describe the method, not measured accuracy improvements.</sub>
 
 
-<details>
-<summary>View original experiment plots</summary>
-
 <p align="center">
   <img src="assets/hw_nas_results.png" width="960" alt="Original NAS validation mAP, hypervolume, and Pareto-front experiment plots">
 </p>
 
-</details>
+<p align="center"><sub>NAS search progress, hypervolume convergence, and accuracy–latency Pareto evolution.</sub></p>
 
 Searching detector architectures under a joint **accuracy–latency objective**.
 
