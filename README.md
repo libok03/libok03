@@ -80,10 +80,10 @@ MPC and local-route modules were implemented by other team members.
 
 
 <p align="center">
-  <img src="assets/hw_nas_results.png" width="960" alt="Original NAS validation mAP, hypervolume, and Pareto-front experiment plots">
+  <img src="assets/hw-nas-portfolio.svg" width="100%" alt="Redesigned NAS charts: search accuracy, hypervolume convergence, and accuracy-latency trade-off; approximate reconstruction from archived plots">
 </p>
 
-<p align="center"><sub>NAS search progress, hypervolume convergence, and accuracy–latency Pareto evolution.</sub></p>
+<p align="center"><sub>Search accuracy · Pareto-set convergence · Accuracy–latency trade-off. Approximate reconstruction from the archived figure.</sub></p>
 
 Searching detector architectures under a joint **accuracy–latency objective**.
 
