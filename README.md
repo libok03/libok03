@@ -96,6 +96,30 @@ Searching detector architectures under a joint **accuracy–latency objective**.
 
 **My contribution:** model training, experimental evaluation, manuscript writing, and poster preparation.
 
+**Existing experiment plots**
+
+| Best plotted validation mAP50 | Hypervolume at 40 evaluated architectures |
+| :---: | :---: |
+| **≈46.1%** · NAS at 20 architectures | **≈2.408 NAS / ≈2.271 Random Search** |
+
+<sub>Approximate readings from the archived figure. The mAP Random Search curve ends at 4 architectures; hypervolume uses the figure's own reference convention.</sub>
+
+<details>
+<summary>Comparison with related HW-NAS research</summary>
+
+| Related work | Published evidence | Relationship to this project |
+| :--- | :--- | :--- |
+| [MobileDets](https://arxiv.org/pdf/2004.14525) · CVPR 2021 | **28.0% COCO test AP / 3.2 ms**, Jetson Xavier FP16 | Detection-specific NAS; this project explores YOLO-derived candidates with online latency calibration |
+| [BRP-NAS](https://proceedings.nips.cc/paper_files/paper/2020/file/768e78024aa8fdb9b8fe87be86f64745-Paper.pdf) · NeurIPS 2020 | **85.9%** of desktop-GPU latency predictions within **±5%** error | GCN end-to-end latency prediction versus this project's stage-aware RF predictor |
+| [HELP](https://proceedings.neurips.cc/paper/2021/file/e3251075554389fe91d17a794861d47b-Paper.pdf) · NeurIPS 2021 | **10** target adaptation measurements; GPU Spearman **0.987** | Device-transfer meta-learning versus online calibration on a target device |
+| [MO-HDNAS](https://arxiv.org/html/2404.12403v1) · CVPRW 2024 | **0.65 vs 20.87 GPU-hours**, CIFAR-100/FPGA comparison | Hardware-cost-diversity objective versus this project's curriculum search |
+
+These results measure different tasks and conditions. They provide research context, not a performance ranking. HELP assumes prior meta-training; the MO-HDNAS cost comparison is against multiple constrained searches.
+
+[Full comparison: methods, conditions, graph readings, and metric provenance →](docs/hw-nas-comparison.md)
+
+</details>
+
 ---
 
 ### SO-101: planning to physical motion
