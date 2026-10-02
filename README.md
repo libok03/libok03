@@ -1,38 +1,82 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="Kang MyeongJin — Robotics, learning, and systems. From perception to action.">
-</p>
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=Kang%20MyeongJin&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Physical%20AI%20%7C%20Robot%20Learning%20%7C%20Multimodal%20Systems%20%7C%20Robotics&descAlignY=56&descAlign=50)
 
-<p align="center">
-  <strong>Robot Learning · Autonomous Systems · Efficient Perception</strong><br>
-  Mechanical Engineering undergraduate at <strong>Soongsil University</strong><br>
-  Building learning-based policies and the robotic systems that run them.
-</p>
+# Kang MyeongJin · 강명진
 
-<p align="center">
-  <a href="https://github.com/libok03/VLA_Driving">Autonomous Driving</a> ·
-  <a href="https://github.com/libok03/maker_fair_2026_teleoperation_lerobot">Robot Manipulation</a> ·
-  <a href="https://github.com/libok03/HW-NAS-YOLO">Hardware-Aware AI</a> ·
-  <a href="mailto:markpiano01@gmail.com">Contact</a>
-</p>
+**Mechanical Engineering undergraduate at Soongsil University**  
+**Physical AI · Robot Learning · Multimodal Systems · Robotics**
+
+I work on connecting **perception, learning, planning, and control** in robotic systems. My experience spans real-vehicle autonomy on ERP42, multi-camera product perception, hardware-aware model optimization, learning-based driving in MORAI, and physical robot-arm integration.
+
+On ERP42, I worked on path planning, state machines, sensor integration, and MPC tuning. In learning-based driving, my work extends from collecting and preparing data to model development, training, evaluation, and ROS runtime integration. My current SO-101 work brings motion planning and measured joint feedback together on a physical manipulator.
+
+Alongside technical work, I serve as **President of ACCA**, Soongsil University's robotics/autonomous-systems team, coordinating projects and system integration across perception, localization, planning, control, and learning.
+
+[Email](mailto:markpiano01@gmail.com) · [GitHub](https://github.com/libok03)
+
+## Portfolio overview
+
+| Project | Focus | My work / project scope |
+| :--- | :--- | :--- |
+| [ERP42 autonomy](https://github.com/libok03/ACCA_2025) | Real-vehicle planning & control | Path planning, state-machine design, sensor integration, MPC tuning |
+| [Multi-camera inventory](https://github.com/libok03/RF_Detr_Based_Inventory_management) | Perception & temporal estimation | Temporal event-estimation pipeline and report preparation |
+| [Hardware-aware NAS](https://github.com/libok03/HW-NAS-YOLO) | Accuracy–latency optimization | Model training, experimental evaluation, manuscript and poster preparation |
+| [Learning-based driving](https://github.com/libok03/VLA_Driving) | Policy learning & runtime integration | Model development, data preparation, training, inference, and ROS integration |
+| [SO-101 manipulation](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot) | Simulation & physical robot execution | Ongoing project covering calibration, MoveIt 2 integration, and hardware feedback |
 
 ---
 
-## Results at a glance
+## Selected Research & Engineering Projects
 
-Measured results from the **TCP-based MORAI driving project**.
+### ERP42 real-vehicle robotics
+[**ACCA 2025 →**](https://github.com/libok03/ACCA_2025)  
+`ROS 2` `Path Planning` `State Machines` `MPC` `Sensor Integration`
 
-| Trajectory prediction | Neural inference | Closed-loop driving |
-| :---: | :---: | :---: |
-| **0.2924 m ADE** | **11.02 ms mean** | **100% completion** |
-| **0.5225 m FDE @ 2 s** | **18.05 ms p95** | **0.38 m mean path error** |
-| Held-out open-loop test | Model inference latency | TCP direct · 4 laps in MORAI |
+<p align="center">
+  <img src="assets/acca_2025_real_vehicle.jpg" width="560" alt="ERP42 real-vehicle integration and testing">
+</p>
 
-[Evaluation details →](https://github.com/libok03/VLA_Driving#평가-결과)  
-These results come from limited MORAI K-City scenarios; open-loop accuracy, model latency, and closed-loop performance are separate measurements.
+**My contribution:** path planning, state-machine design, sensor integration, and MPC optimization/tuning on the ERP42 platform.
 
-## Featured projects
 
-### 01 / Learning-based autonomous driving
+---
+
+### Multi-camera inventory estimation
+[**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
+`RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
+
+<p align="center">
+  <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
+</p>
+
+**5 camera views · 60 product classes**  
+Converting frame-level detections into class counts, temporally filtered observations, and fused inventory estimates.
+
+**My contribution:** temporal event-estimation pipeline development and final report writing/organization. The public implementation includes detection, count extraction, temporal filtering, and class-wise camera fusion.
+
+
+---
+
+### Hardware-aware neural architecture search
+[**HW-NAS-YOLO →**](https://github.com/libok03/HW-NAS-YOLO)  
+`YOLO11n` `NSGA-II` `Ray` `TensorRT FP16`
+
+<p align="center">
+  <img src="assets/hw_nas_results.png" width="560" alt="HW-NAS accuracy-latency Pareto front and hypervolume convergence comparison">
+  <br><sub>Accuracy–latency Pareto search and convergence comparison</sub>
+</p>
+
+Searching detector architectures under a joint **accuracy–latency objective**.
+
+- **3 → 15 → 50 epochs:** multi-fidelity evaluation with Successive Halving.
+- Block type, depth, and attention-module search with pretrained weight inheritance.
+- Random Forest latency prediction with selective TensorRT FP16 hardware measurements.
+
+**My contribution:** model training, experimental evaluation, manuscript writing, and poster preparation.
+
+
+---
+
+### Learning-based autonomous driving
 [**VLA_Driving →**](https://github.com/libok03/VLA_Driving)  
 `PyTorch` `TCP` `Imitation Learning` `ROS` `MORAI`
 
@@ -50,7 +94,7 @@ Adapted **Trajectory-guided Control Prediction (TCP)** to MORAI: front-camera im
 - **11.02 ms mean / 18.05 ms p95** neural inference latency.
 - Camera-timestamp dataset alignment, human/teacher data preparation, training, evaluation, and ROS runtime integration.
 
-**My work:** learning-model development, data collection and labeling, training and inference pipelines, and runtime integration. Earlier multimodal planner experiments are also retained in the repository.
+**My contribution:** learning-model development, data collection and labeling, training and inference pipelines, and runtime integration. Earlier multimodal planner experiments are also retained in the repository.
 
 <details>
 <summary>System context and contribution boundaries</summary>
@@ -62,7 +106,10 @@ MPC and local-route modules were implemented by other team members.
 
 </details>
 
-### 02 / SO-101: planning to physical motion
+
+---
+
+### SO-101: planning to physical motion
 [**SO-101 Teleoperation & MoveIt 2 →**](https://github.com/libok03/maker_fair_2026_teleoperation_lerobot)  
 `ROS 2 Humble` `MoveIt 2` `LeRobot` `Gazebo Harmonic` `ros2_control`
 
@@ -80,83 +127,42 @@ Connecting motion planning to a physical **5-axis arm + gripper**, with feedback
 - Motor setup and calibration tools, trajectory execution, and measured joint-state feedback.
 - Ongoing work: teleoperation and demonstration-data workflows; intermittent gripper voltage alarms remain under investigation.
 
-### 03 / Hardware-aware neural architecture search
-[**HW-NAS-YOLO →**](https://github.com/libok03/HW-NAS-YOLO)  
-`YOLO11n` `NSGA-II` `Ray` `TensorRT FP16`
+## Research Interests
 
-<p align="center">
-  <img src="assets/hw_nas_results.png" width="560" alt="HW-NAS accuracy-latency Pareto front and hypervolume convergence comparison">
-  <br><sub>Accuracy–latency Pareto search and convergence comparison</sub>
-</p>
+My interests center on **robot learning and control**, **multimodal robot learning**, and **efficient AI for physical systems**. I am particularly interested in how perception and learned policies connect to planning and execution, and am exploring vision-language-action models and sim-to-real workflows.
 
-Searching detector architectures under a joint **accuracy–latency objective**.
-
-- **3 → 15 → 50 epochs:** multi-fidelity evaluation with Successive Halving.
-- Block type, depth, and attention-module search with pretrained weight inheritance.
-- Random Forest latency prediction with selective TensorRT FP16 hardware measurements.
-
-**My contribution:** model training, experimental evaluation, manuscript writing, and poster preparation.
-
-### 04 / Multi-camera inventory estimation
-[**RF-DETR Based Inventory Management →**](https://github.com/libok03/RF_Detr_Based_Inventory_management)  
-`RF-DETR` `YOLO` `OpenCV` `Temporal Filtering`
-
-<p align="center">
-  <img src="assets/rfdetr_pipeline.png" width="720" alt="Multi-camera product detection and inventory estimation pipeline">
-</p>
-
-**5 camera views · 60 product classes**  
-Converting frame-level detections into class counts, temporally filtered observations, and fused inventory estimates.
-
-**My contribution:** temporal event-estimation pipeline development and final report writing/organization. The public implementation includes detection, count extraction, temporal filtering, and class-wise camera fusion.
-
-### 05 / ERP42 real-vehicle robotics
-[**ACCA 2025 →**](https://github.com/libok03/ACCA_2025)  
-`ROS 2` `Path Planning` `State Machines` `MPC` `Sensor Integration`
-
-<p align="center">
-  <img src="assets/acca_2025_real_vehicle.jpg" width="560" alt="ERP42 real-vehicle integration and testing">
-</p>
-
-**My contribution:** path planning, state-machine design, sensor integration, and MPC optimization/tuning on the ERP42 platform.
-
-## Research direction
-
-I am interested in **robot learning and control**, **multimodal perception**, and **efficient models for physical systems**. My current projects connect learned policies with data pipelines, motion planning, and execution. I am also exploring vision-language-action models and sim-to-real robot-learning workflows.
-
-## Toolkit
+## Technical Experience
 
 | Area | Tools & experience |
 | :--- | :--- |
-| Learning & optimization | Python · PyTorch · TensorRT · CUDA · C++ |
-| Robotics & control | ROS / ROS 2 · MoveIt 2 · Gazebo · MPC · PID · State Machines |
+| Languages & learning | Python · C++ · PyTorch · TensorRT · CUDA |
+| Robotics & control | ROS / ROS 2 · MoveIt 2 · Gazebo · MPC · PID · State Machines · Path Planning |
 | Perception & sensing | RF-DETR · YOLO · OpenCV · Camera · LiDAR · IMU · GNSS |
 | Systems | Linux · Git · Docker |
 
-<details>
-<summary>Team activities and other experiments</summary>
+## Team & Leadership
 
-### ACCA · Soongsil University · President, 2026
+**President · ACCA, Soongsil University · 2026**
 
-Coordinated robotics/autonomous-system projects, integration work across perception, localization, planning, control, and learning, and real-robot/simulation experiments.
+- Coordinated robotics and autonomous-system projects.
+- Managed integration work across perception, localization, planning, control, and learning.
+- Organized real-robot and simulation experiments.
 
 <p align="center">
-  <img src="assets/acca_team.jpg" width="560" alt="ACCA team at Soongsil University">
+  <img src="assets/acca_team.jpg" width="620" alt="ACCA team at Soongsil University">
+  <br><sub>ACCA team, Soongsil University</sub>
 </p>
 
-### Other experiments
+## Other Engineering & Learning Experiments
 
 [UR5e simulation & pick-and-place](https://github.com/libok03/ros2_SimRealRobotControl) ·
 [PPO Swing-Up](https://github.com/libok03/PPO_SwingUp) ·
 [Atari DQN](https://github.com/libok03/Atari_DQN_Agent) ·
 [CartPole RL](https://github.com/libok03/CartPole_RL)
 
-</details>
-
 ---
 
-<p align="center">
-  <strong>Kang MyeongJin · 강명진</strong><br>
-  <a href="mailto:markpiano01@gmail.com">markpiano01@gmail.com</a> ·
-  <a href="https://github.com/libok03">@libok03</a>
-</p>
+## Contact
+
+**Kang MyeongJin · 강명진**  
+[markpiano01@gmail.com](mailto:markpiano01@gmail.com) · [@libok03](https://github.com/libok03)
