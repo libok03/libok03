@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<rect width="1200" height="280" rx="16" fill="#111b24"/>
+<g stroke="#243440" stroke-width="1"><path d="M780 50V235M850 50V235M920 50V235M990 50V235M1060 50V235M1130 50V235M750 85H1150M750 155H1150M750 225H1150"/></g>
+<text x="58" y="65" fill="#80cec7" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">ROBOT LEARNING / MANIPULATION</text>
+<text x="55" y="133" fill="#f1f5f7" font-family="Arial,sans-serif" font-size="48" font-weight="700">Kang MyeongJin</text>
+<text x="58" y="177" fill="#b4c1ca" font-family="Arial,sans-serif" font-size="20">Mechanical Engineering · Soongsil University</text>
+<text x="58" y="229" fill="#80cec7" font-family="Arial,sans-serif" font-size="16">Learning policies. Running them on robots.</text>
+<path d="M981 111C1001 55 1080 43 1115 78S1110 161 1066 171" fill="none" stroke="#80cec7" stroke-width="2" stroke-dasharray="5 7"/>
+<g fill="none" stroke="#dce5eb" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"><path d="M823 224L823 181L900 135L970 99"/></g>
+<g fill="#111b24" stroke="#80cec7" stroke-width="3"><circle cx="823" cy="181" r="12"/><circle cx="900" cy="135" r="12"/><circle cx="970" cy="99" r="10"/></g>
+<path d="M981 100L1004 112M1004 112L1014 98M1004 112L1014 127M800 237H847" fill="none" stroke="#80cec7" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1066" cy="171" r="5" fill="#80cec7"/>
+</svg>
