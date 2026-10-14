@@ -1,4 +1,4 @@
-![Kang MyeongJin — Robot Learning and Manipulation](assets/manipulation-header.svg)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=Kang%20MyeongJin&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Physical%20AI%20%7C%20Robot%20Learning%20%7C%20Multimodal%20Systems%20%7C%20Robotics&descAlignY=56&descAlign=50)
 
 I'm a mechanical engineering undergraduate at **Soongsil University**, interested in **robot learning for manipulation**. I want to study how robots learn manipulation skills from demonstrations, and how trajectories can guide their actions.
 
